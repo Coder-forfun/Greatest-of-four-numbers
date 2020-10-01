@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c,d,s;
-    printf("enter all the four numbers")
+    float a,b,c,d,s;
+    printf("Enter all the four numbers\n");
     scanf("%d%d%d%d",&a,&b,&c,&d);
     s=a>b?a:b>c?b:c>d?c:d;
-    printf("the greatest of all number is %d",s);
-
+    printf("The greatest of all number is: %f",s);
+    return 0;
 }
