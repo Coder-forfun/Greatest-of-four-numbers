@@ -1,0 +1,13 @@
+
+1. Start
+2. Read the three numbers to be compared, as A, B and C.
+3. Check if A is greater than B.
+
+  3.1 If true, then check if A is greater than C.
+    3.1.1 If true, print 'A' as the greatest number.
+    3.1.2 If false, print 'C' as the greatest number.
+
+  3.2 If false, then check if B is greater than C.
+    3.1.1 If true, print 'B' as the greatest number.
+    3.1.2 If false, print 'C' as the greatest number.
+4. End
